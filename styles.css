@@ -26,6 +26,6 @@
 .menu__item{
  padding: 0 13px; 
 }
-.menu__item: last-child{
+.menu__item:last-child{
 padding: right;
   }
