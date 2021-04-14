@@ -16,8 +16,8 @@
 .logo__circle{
  position: absolute;
  left: 0;
- top: 50%
- transform: translateY(-50%)
+ top: 50%;
+ transform: translateY(-50%);
  width: 28px;
  height: 28px;
  border-radius: 50%;
