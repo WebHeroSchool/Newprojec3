@@ -1,6 +1,9 @@
 .title {
   font-family: "Roboto";
 }
+.bode{
+  margin: 0
+}
 .wrapper {
   margin: auto;
   width: 80%; 
@@ -15,6 +18,7 @@
 .menu{
   display: flex;
   align-items: certer;
+  padding: 40px 0;
 }
 .menu__item{
  padding: 0 13px; 
