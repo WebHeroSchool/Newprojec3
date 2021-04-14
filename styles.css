@@ -1,11 +1,8 @@
-.title {
-  font-family: "Roboto";
-}
 .menu {
  font-family: "Roboto";  
 }
 .bode{
-  margin: 0
+  margin: 0;
 }
 .wrapper {
   margin: auto;
@@ -14,18 +11,18 @@
 .logo{
   padding: 40px 0;
 }
-.heder{
+.header{
   display: flex;
   justify-content: space-between;
 }
 .menu{
   display: flex;
-  align-items: certer;
+  align-items: center;
   padding: 40px 0;
 }
 .menu__item{
  padding: 0 13px; 
 }
 .menu__item:last-child{
-padding: right;
+padding-right: 0;
   }
