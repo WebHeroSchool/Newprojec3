@@ -1,27 +1,25 @@
 .body {
   margin: 0;
 }
-
-.menu {
-  font-family: "Roboto";
-}
-
 .wrapper {
   margin: auto;
   width: 80%;
 }
-
 .logo {
   position: relative;
   padding: 40px 0;
-  padding: 44px;
+  padding-left: 44px;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+  display: inline-block;
+
 }
 
 .logo__circle {
   position: absolute;
   left: 0;
-  top: 50% transform: translateY(-50%) width: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
   height: 28px;
   border-radius: 50%;
   opacity: .7;
@@ -37,27 +35,27 @@
   background: #0056EC;
 }
 
-.heder {
+.header {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
-
 .menu {
+  font-family: "Roboto";
   display: flex;
   align-items: center;
   padding: 40px 0;
+  display: inline-block;
 }
-
 .menu__item {
   position: relative;
   margin-right: 26px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
+  transition: opacity .5s;
 }
-
-.menu__item_active::after {
+.menu__item_active::after{
   position: absolute;
   left: 0;
   display: block;
@@ -66,7 +64,6 @@
   height: 3px;
   background: #0056EC;
 }
-
 .menu__item:last-child {
   margin-right: 0;
 }
