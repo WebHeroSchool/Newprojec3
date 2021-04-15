@@ -158,17 +158,7 @@ width: 100%;
  .main__button{
    font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
  }
-}
-@media (min-width: 320px) {
-  .wrap__title {
-    font-size: 15px;
-  }
-}
-@margin (min-width: 614px) {
-  .wrap__title {
-    font-size: 32px;
-  }
-}
+} 
 /* ÑÐºÑ€Ñ‹Ð²Ð°ÐµÐ¼ Ñ‡ÐµÐºÐ±Ð¾ÐºÑ */
 #menu__toggle {
   opacity: 0;
@@ -258,3 +248,4 @@ width: 100%;
 .menu__item {
   transition-duration: .25s;
 }
+
