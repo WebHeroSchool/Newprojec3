@@ -1,4 +1,4 @@
-.body {
+body {
   margin: 0;
 }
 .wrapper {
@@ -13,7 +13,6 @@
   display: inline-block;
 
 }
-
 .logo__circle {
   position: absolute;
   left: 0;
@@ -24,17 +23,14 @@
   border-radius: 50%;
   opacity: .7;
 }
-
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #C8DBFB;
 }
-
 .logo__circle_color_dark-blue {
   background: #0056EC;
 }
-
 .header {
   padding: 40px 0;
   display: flex;
