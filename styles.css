@@ -1,4 +1,4 @@
-.body {
+body {
   margin: 0;
   height: 100%;
 }
@@ -13,9 +13,7 @@
   padding-left: 44px;
   font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
   display: inline-block;
-
 }
-
 .logo__circle {
   position: absolute;
   left: 0;
@@ -26,17 +24,14 @@
   border-radius: 50%;
   opacity: .7;
 }
-
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #C8DBFB;
 }
-
 .logo__circle_color_dark-blue {
   background: #0056EC;
 }
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -92,6 +87,16 @@ width: 100%;
     background: top right no-repeat url(img/mainImg.svg);
     padding: 0px 63% 100% 0;
 }
+
+.main-content__tetle {
+  margin-bottem: 40px;
+  font: bold 50px/65px pt_serif,arial,helvetica,sans-serif;
+}
+.main-content__subtitle {
+  margin-top: 0;
+  margin-bottem: 41px;
+  font: 18px/21px Roboto,arial,helvetica,sans-serif;
+}
 .main__title {
     width: 100%;
      padding-top: 70px;
@@ -105,7 +110,7 @@ width: 100%;
     color: #000000;
 }
 .main__title-text_highlight {
-    background: #ECF3FF;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 .main__description {
     width: 80%;
@@ -116,7 +121,6 @@ width: 100%;
     font-size: 22px;
     line-height: 26px;
 }
-
 .main__button {
     font-family: Roboto, arial, helvetica, sans-serif;
     padding: 19px 26px;
@@ -132,4 +136,7 @@ width: 100%;
 }
 .main__button:hover {
     opacity: .5;
+}
+.image-content__image {
+  background: url('img/points.svg');
 }
