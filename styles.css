@@ -137,6 +137,3 @@ width: 100%;
 .main__button:hover {
     opacity: .5;
 }
-.image-content__image {
-  background: url('img/points.svg');
-}
