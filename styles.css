@@ -85,7 +85,7 @@ width: 100%;
 .main {
     padding-right: 63%;
     background: top right no-repeat url(img/mainImg.svg);
-    padding: 0px 63% 100% 0;
+    padding: 0px 63% 0 0;
 }
 
 .main-content__tetle {
