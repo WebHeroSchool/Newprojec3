@@ -156,7 +156,7 @@ opacity: 0,5;
    display: none;
   }
   .header {
-   margin-bottom: 4px;
+   margin-bottom: 14px;
    display: flex;
    justify-content: space-between;
  }
@@ -167,8 +167,8 @@ opacity: 0,5;
   background-position: top center;
  }
  .main__title {
-  margin-bottom: 28px;
-  font: bold 31px/39px pt_serif, arial, helvetica, sans-serif;
+  margin-bottom: 44px;
+  font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
   padding: 0px;
  }
   .main__subtitle {
@@ -177,7 +177,6 @@ opacity: 0,5;
  }
   .main__button {
     font: 500 14px/12px Roboto, arial, helvetica, sans-serif;
-   
  }
  .logo>span {
    display: none;
@@ -185,6 +184,10 @@ opacity: 0,5;
  #menu__toggle {
   opacity: 0;
 }
+#menu__toggle {
+  opacity: 0;
+}
+
 #menu__toggle:checked ~ .menu__btn > span {
   transform: rotate(45deg);
 }
@@ -200,17 +203,19 @@ opacity: 0,5;
   visibility: visible;
   left: 0;
 }
+
 .menu__btn {
   display: flex;
   align-items: center;
   position: fixed;
-  top: 20px;
-  left: 20px;
+  top: 27px;
   width: 26px;
   height: 26px;
   cursor: pointer;
   z-index: 1;
+  right: 23px;
 }
+
 .menu__btn > span,
 .menu__btn > span::before,
 .menu__btn > span::after {
@@ -229,19 +234,25 @@ opacity: 0,5;
   content: '';
   top: 8px;
 }
+
 .menu__box {
   display: block;
   position: fixed;
   visibility: hidden;
   top: 0;
   left: -100%;
-  width: 100px;
+
+  width: 300px;
   height: 100%;
+
   margin: 0;
   padding: 80px 0;
+
   list-style: none;
+
   background-color: #ECEFF1;
   box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+
   transition-duration: .25s;
 }
 
@@ -250,13 +261,15 @@ opacity: 0,5;
   padding: 12px 24px;
 
   color: #333;
+
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 600;
+
   text-decoration: none;
+
   transition-duration: .25s;
 }
 .menu__item:hover {
   background-color: #CFD8DC;
-}
 }
