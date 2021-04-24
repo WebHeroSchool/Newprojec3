@@ -111,12 +111,13 @@ opacity: 0,5;
     background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ECF3FF 15%);
 }
 .main__description {
-    margin: 1px 0 60px -1px;
+    margin: 1px 0 50px -8px;
     font-family: Roboto, arial, helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 17px;
+    width: 90%;
 }
 .main__button {
    font-family: Roboto, arial, helvetica, sans-serif;
@@ -151,12 +152,16 @@ opacity: 0,5;
  .menu__box {
   display:none;
 }
+.logo {
+ font-size: 32px;
+ animation: flash .3s 3 ease-in-out;
+}
 @media (max-width: 768px) {
   .menu{
    display: none;
   }
   .header {
-   margin-bottom: 14px;
+   margin-bottom: 14;
    display: flex;
    justify-content: space-between;
  }
@@ -169,7 +174,11 @@ opacity: 0,5;
  .main__title {
   margin-bottom: 44px;
   font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
-  padding: 0px;
+  width: 100%;
+  padding-top: 0;
+  margin: 0px 0 24px 0;
+  font-family: 'PT Serif', arial, helvetica, sans-seref;
+  font-size: px;
  }
   .main__subtitle {
     margin-bottom: 25px;
@@ -203,7 +212,6 @@ opacity: 0,5;
   visibility: visible;
   left: 0;
 }
-
 .menu__btn {
   display: flex;
   align-items: center;
