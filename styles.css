@@ -296,10 +296,20 @@ width: 100%;
   background-color: #CFD8DC;
 }
   @media(max-width: 1024px){
-   .header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 124px;
+  .logo__cercle {
+    position: relative;
+    padding: 38px 0;
+    padding-left: 157px;
+    font: bold 24px/32.6px "PT Serif", arial, helvetica, sans-serif;
+    display: inline-block;
 }
+.menu {
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    display: inline-block;	  
+}
+	
  }
 	
