@@ -303,6 +303,24 @@ width: 100%;
     font: bold 24px/32.6px "PT Serif", arial, helvetica, sans-serif;
     display: inline-block;
 }
+.logo__circle_color_blue {
+    left: 124px;
+    top: 56%;
+background: #C8DBFB;
+	  }
+	  .logo__circle_color_dark-blue {
+    background: #0056EC;
+}
+.logo__circle {
+    position: absolute;
+    left: 113px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+	opacity: .7;
+	  }
 .menu {
     font-family: "Roboto";
     display: flex;
